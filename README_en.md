@@ -3,7 +3,7 @@
 
 The easiest way to use Bluetooth (BLE )in ios,even baby can use .  CoreBluetooth wrap.
 
-#feature
+# feature
 
 - 1:CoreBluetooth wrap，simple and eary for use.
 - 2:CoreBluetooth is dependency on delegate ,and most times,call method at delegate then go into delegate,and over and over,it's messy.BabyBluetooth favor to using block.
@@ -150,7 +150,7 @@ peripheral model demo see :[BluetoothStubOnIOS](https://github.com/coolnameismy/
 
 # how to install
 
-##1 manual
+## 1 manual
 step1: let src folder‘s files import your project
 
 step2:import .h
@@ -159,7 +159,7 @@ step2:import .h
 #import "BabyBluetooth.h"
 ````
 
-##2 cocoapods
+## 2 cocoapods
 step1:add the following line to your Podfile:
 ````
 pod 'BabyBluetooth','~> 0.6.0'
